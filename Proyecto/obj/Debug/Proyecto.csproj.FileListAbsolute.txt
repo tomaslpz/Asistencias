@@ -1,0 +1,12 @@
+C:\Users\Tomas Lopez\Documents\Udemy\Sistema de asistencias en C# y SQLserver desde 0\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\Tomas Lopez\Documents\Udemy\Sistema de asistencias en C# y SQLserver desde 0\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\Tomas Lopez\Documents\Udemy\Sistema de asistencias en C# y SQLserver desde 0\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\Tomas Lopez\Documents\Udemy\Sistema de asistencias en C# y SQLserver desde 0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\Tomas Lopez\Documents\Udemy\Sistema de asistencias en C# y SQLserver desde 0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tomas Lopez\Documents\Udemy\Sistema de asistencias en C# y SQLserver desde 0\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\Tomas Lopez\Documents\Udemy\Sistema de asistencias en C# y SQLserver desde 0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\Tomas Lopez\Documents\Udemy\Sistema de asistencias en C# y SQLserver desde 0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Tomas Lopez\Documents\Udemy\Sistema de asistencias en C# y SQLserver desde 0\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\Tomas Lopez\Documents\Udemy\Sistema de asistencias en C# y SQLserver desde 0\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\Tomas Lopez\Documents\Udemy\Sistema de asistencias en C# y SQLserver desde 0\Proyecto\Proyecto\obj\Debug\Proyecto.Presentacion.MenuPrincipal.resources
+C:\Users\Tomas Lopez\Documents\Udemy\Sistema de asistencias en C# y SQLserver desde 0\Proyecto\Proyecto\obj\Debug\Proyecto.Presentacion.Personal.resources
