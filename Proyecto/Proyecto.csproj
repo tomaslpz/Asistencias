@@ -95,7 +95,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\editar1.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\hora.png" />
   </ItemGroup>

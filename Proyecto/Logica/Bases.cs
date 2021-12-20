@@ -13,7 +13,17 @@ namespace Proyecto.Logica
         public static void DiseñoDtv(ref DataGridView Listado)
         {
             Listado.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            Listado.BackgroundColor = Color.Red;
+            Listado.BackgroundColor = Color.FromArgb(29,29,29);
+            Listado.EnableHeadersVisualStyles = false; //deshabilita el estilo que viene por default
+            Listado.BorderStyle = BorderStyle.None; //quitado de bordes
+            Listado.CellBorderStyle = DataGridViewCellBorderStyle.None;
+            Listado.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+            Listado.RowHeadersVisible = false; //quito la columna mas a la izquierda
+            DataGridViewCellStyle cabecera = new DataGridViewCellStyle();
+            cabecera.BackColor = Color.FromArgb(29, 29, 29);
+            cabecera.ForeColor = Color.White;
+            cabecera.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            Listado.ColumnHeadersDefaultCellStyle = cabecera;
         }
         public static object Decimales(TextBox CajaTexto, KeyPressEventArgs e)
         {
