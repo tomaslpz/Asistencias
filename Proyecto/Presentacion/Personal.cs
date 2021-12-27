@@ -38,7 +38,8 @@ namespace Proyecto.Presentacion
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            ReiniciarPaginado();
+            MostrarPersonal();
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -269,6 +270,7 @@ namespace Proyecto.Presentacion
         private void BtnVolverPersonal_Click(object sender, EventArgs e)
         {
             PanelRegistros.Visible = false;
+            PanelPaginado.Visible = true;
         }
 
         private void btnGuardarCambiosC_Click(object sender, EventArgs e)
@@ -506,6 +508,20 @@ namespace Proyecto.Presentacion
         {
             ReiniciarPaginado();
             MostrarPersonal();
+        }
+
+        private void txtbuscador_TextChanged(object sender, EventArgs e)
+        {
+            BuscarPersonal();
+        }
+        private void BuscarPersonal()
+        {
+            //Busca por nombre y por identificacion
+            DataTable dt = new DataTable();
+            Dpersonal funcion = new Dpersonal();
+            funcion.BuscarPersonal(ref dt,desde,hasta,txtbuscador.Text);
+            datalistadoPersonal.DataSource = dt;
+            DiseñarDtvPersonal();
         }
     }
 }
